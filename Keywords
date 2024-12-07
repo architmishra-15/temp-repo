@@ -1,0 +1,114 @@
+
+Custom Programming Language - Keywords
+
+This document provides an overview of the keywords and their usage in the custom Hindi-based programming language. Each keyword is designed to make programming fun and intuitive!
+
+---
+
+Keywords
+
+1. dekho
+- Purpose: Print text or values to the console.
+- Usage:
+  dekho("Namaste Duniya!");
+  dekho(42);
+
+---
+
+2. naya
+- Purpose: Declare a new variable.
+- Usage:
+  naya x = 10;
+  naya y = "Shabd";
+
+---
+
+3. kaam
+- Purpose: Define a new function.
+- Usage:
+  kaam add(purna x, purna y) {
+      wapas x + y;
+  }
+
+---
+
+4. agar
+- Purpose: Define an `if` condition.
+- Usage:
+  agar (x > 10) {
+      dekho("Badi sankhya!");
+  }
+
+---
+
+5. nahi-to
+- Purpose: Define an `else` block for `agar`.
+- Usage:
+  agar (x > 10) {
+      dekho("Badi sankhya!");
+  } nahi-to {
+      dekho("Choti sankhya!");
+  }
+
+---
+
+6. jab-tak
+- Purpose: Define a `while` loop.
+- Usage:
+  jab-tak (x < 10) {
+      dekho(x);
+      x = x + 1;
+  }
+
+---
+
+7. wapas
+- Purpose: Return a value from a function.
+- Usage:
+  kaam add(purna x, purna y) {
+      wapas x + y;
+  }
+
+---
+
+8. aur / ya / nahi
+- Purpose: Logical operators (`and`, `or`, `not`).
+- Usage:
+  agar (x > 0 aur y < 10) {
+      dekho("Sharthan poora!");
+  }
+  agar (nahi(x == y)) {
+      dekho("Samaan nahi hai.");
+  }
+
+---
+
+9. poora / jhootha
+- Purpose: Boolean values (`true` / `false`).
+- Usage:
+  naya result = poora;
+  agar (result) {
+      dekho("Yeh sach hai!");
+  }
+
+---
+
+10. purna / do-tirya / string
+- Purpose: Data types (`int`, `float`, `string`).
+- Usage:
+  naya x = purna 10;
+  naya y = do-tirya 3.14;
+  naya name = string "Bharat";
+
+---
+
+Adding More Keywords
+Feel free to add more keywords as you expand your language. Make sure they are intuitive and fit the fun, Hindi theme of the language.
+
+---
+
+Notes
+- Keep your code humorous by choosing meaningful and funny Hindi terms for new features!
+- Keywords are case-sensitive. Ensure proper usage in your code.
+
+---
