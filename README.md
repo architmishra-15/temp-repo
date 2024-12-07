@@ -11,7 +11,7 @@
   -   `LLVM`
   -   `clang`
   -   `base-devel`
-    <br>
+    
     #### Installation for Windows -
     - Install the `MSYS2` binary from the [official website](https://www.msys2.org/). And run these command to install `MinGW64` and other dependencies-
         ```bash
@@ -23,6 +23,7 @@
         ```
 
     >***Note***: _You can also install the binaries of LLVM and CLANG directly from their official website or GitHub repo, although that don't contain all of the required binaries. Atleast it didn't for me._
+    <br>
 
     #### Installation for Linux:
      - <strong>For Arch based systems - </strong>
